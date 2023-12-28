@@ -4,7 +4,7 @@
 
 ## Overview
 
-The KUbernetes Test TooL (KUTTL) provides a declarative approach to testing production-grade Kubernetes [operators](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/).
+The KUbernetes Test TooL (KUTTL) provides a declarative approach to test production-grade Kubernetes [operators](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/).
 
 It provides a way to inject an operator (subject under test) during the TestSuite setup and allows tests to be standard YAML files.  Test assertions are often partial YAML documents which assert the state defined is true.
 
